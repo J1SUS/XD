@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-image: url('./img/barra-inicial.png');
+    background-position-y: 27.3pc;
+    height: 13.5vh;
+    box-shadow: 0px 10px 10px rgb(95, 93, 93);
+}
+
+.navbar img{
+    width: 14em;
+    grid-column-start: 1;
+}
+
+.links {
+    grid-column: 3;
+    text-align: end;
+}
+
+.links h1, h2 {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1.8em;
+}
+
+.links h2 {
+    color: white;
+}
