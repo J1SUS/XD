@@ -1,0 +1,10 @@
+.App {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "navbar"
+    "banner"
+    "ads"
+    "registrarse"
+    "randum";
+}
