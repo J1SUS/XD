@@ -11,6 +11,7 @@ body {
     background-image: url('./img/barra-inicial.png');
     background-position-y: 27.3pc;
     height: 13.5vh;
+    max-height: 4.2pc;
     box-shadow: 0px 10px 10px rgb(95, 93, 93);
     grid-area: navbar;
 }
@@ -33,4 +34,19 @@ body {
 
 .links h2 {
     color: white;
+}
+
+@media (max-width: 405px) {
+    .links h1, h2{
+        position: relative;
+        font-size: calc(2vw + 1em);
+        /* bottom: -3vw; */
+    }
+    .navbar img{
+        width: calc(18vw + 18vh);
+    }
+    .navbar {
+        background-position-y: 27pc;
+        height: calc(5.3vh + 5.3vw);
+    }
 }
