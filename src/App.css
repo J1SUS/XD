@@ -1,10 +1,8 @@
-.App {
-    height: 100vh;
-    display: grid;
-    grid-template-areas: 
-    "navbar"
-    "banner"
-    "ads"
-    "registrarse"
-    "randum";
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
 }

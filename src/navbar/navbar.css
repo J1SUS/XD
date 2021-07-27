@@ -1,52 +1,87 @@
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
 .navbar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     background-image: url('./img/barra-inicial.png');
-    background-position-y: 27.3pc;
-    height: 13.5vh;
-    max-height: 4.2pc;
-    box-shadow: 0px 10px 10px rgb(95, 93, 93);
-    grid-area: navbar;
+    background-position-y: clamp(41.5%, 60%, 100%);
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+    z-index: 1;
 }
 
 .navbar img{
-    width: 14em;
+    object-fit: cover;
+    position: absolute;
+    width: clamp(31%, 28%, 11em);
     grid-column-start: 1;
 }
 
 .links {
+    margin-right: 1vmax;
     grid-column: 3;
     text-align: end;
 }
 
 .links h1, h2 {
+    padding-top: 0.3vmax;
+    padding-bottom: 0.3vmax;
     margin: 0;
     font-family: sans-serif;
-    font-size: 1.8em;
+    font-size: calc(40 * var(--current-viewport-width) / var(--ideal-viewport-width));
+
 }
 
 .links h2 {
     color: white;
 }
 
-@media (max-width: 405px) {
-    .links h1, h2{
-        position: relative;
-        font-size: calc(2vw + 1em);
-        /* bottom: -3vw; */
-    }
-    .navbar img{
-        width: calc(18vw + 18vh);
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 450px) {
     .navbar {
-        background-position-y: 27pc;
-        height: calc(5.3vh + 5.3vw);
+    background-position-y: clamp(40.5%, 60%, 100%);
+    }
+    .navbar img {
+    width: clamp(28%, 28%, 11em);
     }
 }
