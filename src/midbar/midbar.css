@@ -30,6 +30,19 @@
     padding-right: 4vmax;
     background-color: rgb(31, 31, 31);
     border-radius: 5px;
-    box-shadow: 1px 3px 10px black;
+    box-shadow: 1px 3px 10px hsl(0, 0%, 1%);
     font-size: calc(33 * 100vw / var(--ideal-viewport-width));
+}
+
+
+
+
+.button:hover {
+    background-color: hsl(0, 0%, 15%);
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: hsl(0, 0%, 20%);
+    box-shadow: 2px 2px 5px hsl(0, 0%, 15%);
 }
