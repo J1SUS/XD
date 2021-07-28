@@ -3,6 +3,8 @@
 }
 
 .midbar {
+    margin-top: 0.2rem;
+    position: relative;
     font-family: sans-serif;
     display: flex;
     justify-content: space-around;
@@ -10,6 +12,8 @@
     align-items: center;
     background-color: rgb(20, 20, 20);
     padding: 0.4rem;
+    box-shadow: 0px 5px 15px hsl(0, 0%, 5%);
+    z-index: 3;
 }
 
 .midbar h1, h2 {

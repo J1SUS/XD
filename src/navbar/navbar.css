@@ -5,8 +5,7 @@
     background: url('./img/barra-inicial.png');
     background-size: cover;
     background-position-y: calc(-35 * 100vw / var(--ideal-viewport-width));
-    box-shadow: 0px 3px 10px rgb(0, 0, 0);
-    z-index: 1;
+    z-index: 40;
 }
 
 .navbar img{
@@ -14,6 +13,7 @@
     grid-column-start: 1;
     left: calc(60 * 100vw / var(--ideal-viewport-width));
     width: clamp(31%, 28%, 11em);
+    z-index: 40;
 }
 
 .links {
