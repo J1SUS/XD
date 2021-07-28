@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    background-image: url('./img/barra-inicial.png');
-    background-position-y: clamp(41.5%, 60%, 100%);
+    background: url('./img/barra-inicial.png');
+    background-size: cover;
+    background-position-y: calc(-35 * 100vw / var(--ideal-viewport-width));
     box-shadow: 0px 3px 10px rgb(0, 0, 0);
     z-index: 1;
 }
@@ -78,9 +79,6 @@
 
 
 @media (min-width: 450px) {
-    .navbar {
-    background-position-y: clamp(40.5%, 60%, 100%);
-    }
     .navbar img {
     width: clamp(28%, 28%, 11em);
     }
