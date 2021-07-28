@@ -1,0 +1,35 @@
+.midbar *{
+    margin: 0;
+}
+
+.midbar {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    padding: 0.4rem;
+}
+
+.midbar h1, h2 {
+    font-size: calc(53 * 100vw / var(--ideal-viewport-width));
+    position: relative;
+    left: calc(-20 * var(--current-viewport-width) / var(--ideal-viewport-width));
+}
+
+.midbar h2 {
+    font-size: calc(33 * 100vw / var(--ideal-viewport-width));
+}
+
+
+.button {
+    text-align: center;
+    padding: 1.5vmax;
+    padding-left: 4vmax;
+    padding-right: 4vmax;
+    background-color: rgb(31, 31, 31);
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px black;
+    font-size: calc(33 * 100vw / var(--ideal-viewport-width));
+}

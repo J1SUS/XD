@@ -54,6 +54,7 @@
 .Premiada {
     position: relative;
     right: calc(-200 * 100vw / var(--ideal-viewport-width));
+    width: fit-content;
 }
 
 .Colaborativa {

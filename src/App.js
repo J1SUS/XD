@@ -1,5 +1,6 @@
-import Navbar from './navbar/navbar';
 import './App.css';
+import Midbar from './midbar/Midbar';
+import Navbar from './navbar/navbar';
 import Banner from './banner/Banner'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Banner />
+      <Midbar />
     </div>
   );
 }
