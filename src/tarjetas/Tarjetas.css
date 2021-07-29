@@ -1,0 +1,47 @@
+.Tarjetas *{
+    margin: 0;
+}
+
+.Tarjetas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tarjeta {
+    padding: 0.1rem;
+    background-color: black;
+    height: calc(550 * 100vw / var(--ideal-viewport-width));
+    width: calc(350 * 100vw / var(--ideal-viewport-width));
+    color: rgb(255, 0, 255);
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgb(24, 24, 24);
+}
+
+.tarjeta h2,.tarjeta h3 {
+    margin-left: calc(13 * 100vw / var(--ideal-viewport-width));
+    
+}
+.tarjeta h2 {
+    margin-bottom: calc(10 * 100vw / var(--ideal-viewport-width));
+    font-size: calc(50 * 100vw / var(--ideal-viewport-width));
+}
+.tarjeta h3 {
+    margin-left: calc(35 * 100vw / var(--ideal-viewport-width));
+    font-size: calc(25 * 100vw / var(--ideal-viewport-width));
+}
+
+.tarjeta-img {
+    width: calc(250 * 100vw / var(--ideal-viewport-width));
+    position: relative;
+    right: calc(-50 * 100vw / var(--ideal-viewport-width));
+}
+
+.tarjeta-1 h2{
+    font-size: calc(43 * 100vw / var(--ideal-viewport-width));
+}
+
+.tarjeta-2 h2 {
+    font-size: calc(41 * 100vw / var(--ideal-viewport-width));
+}
+
