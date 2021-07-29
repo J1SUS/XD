@@ -7,17 +7,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: calc(100 * 100vw / var(--ideal-viewport-width));
     height: calc(700 * 100vw / var(--ideal-viewport-width));
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
 }
 
 .Registro img {
-    width: calc(500 * 100vw / var(--ideal-viewport-width));
+    width: calc(450 * 100vw / var(--ideal-viewport-width));
 }
 
 .Registro *{
     position: relative;
-    right: calc(-130 * 100vw / var(--ideal-viewport-width));
-    font-size: calc(35 * 100vw / var(--ideal-viewport-width));
+    right: calc(-110 * 100vw / var(--ideal-viewport-width));
+    font-size: calc(30 * 100vw / var(--ideal-viewport-width));
 }
 .Registro img, .reg{
     bottom: calc(-110 * 100vw / var(--ideal-viewport-width));
@@ -33,7 +36,9 @@
     box-shadow: 2px 3px 5px black;
     color: rgb(92, 92, 92);
     text-align: center;
-    width: calc(450 * 100vw / var(--ideal-viewport-width));
+    width: calc(400 * 100vw / var(--ideal-viewport-width));
+    position: relative;
+    right: calc(10 * 100vw / var(--ideal-viewport-width));
 }
 
 .reg {

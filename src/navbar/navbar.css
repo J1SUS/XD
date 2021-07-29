@@ -22,7 +22,7 @@
     text-align: end;
 }
 
-.links h1, h2 {
+.links h1, .links h2 {
     padding-top: 0.3vmax;
     padding-bottom: 0.3vmax;
     margin: 0;

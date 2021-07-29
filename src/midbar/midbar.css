@@ -16,7 +16,7 @@
     z-index: 3;
 }
 
-.midbar h1, h2 {
+.midbar h1, .midbar h2 {
     font-size: calc(53 * 100vw / var(--ideal-viewport-width));
     position: relative;
     left: calc(-20 * var(--current-viewport-width) / var(--ideal-viewport-width));
