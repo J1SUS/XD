@@ -11,8 +11,8 @@
 .tarjeta {
     padding: 0.1rem;
     background-color: black;
-    height: calc(550 * 100vw / var(--ideal-viewport-width));
-    width: calc(350 * 100vw / var(--ideal-viewport-width));
+    height: calc(500 * 100vw / var(--ideal-viewport-width));
+    width: calc(300 * 100vw / var(--ideal-viewport-width));
     color: rgb(255, 0, 255);
     border-radius: 3px;
     box-shadow: 3px 3px 3px rgb(24, 24, 24);
@@ -34,7 +34,7 @@
 .tarjeta-img {
     width: calc(250 * 100vw / var(--ideal-viewport-width));
     position: relative;
-    right: calc(-50 * 100vw / var(--ideal-viewport-width));
+    right: calc(-30 * 100vw / var(--ideal-viewport-width));
 }
 
 .tarjeta-1 h2{
@@ -42,6 +42,6 @@
 }
 
 .tarjeta-2 h2 {
-    font-size: calc(41 * 100vw / var(--ideal-viewport-width));
+    font-size: calc(35 * 100vw / var(--ideal-viewport-width));
 }
 
