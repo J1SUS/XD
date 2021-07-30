@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: calc(350 * 100vw / var(--ideal-viewport-width));
 }
 
 .tarjeta {
