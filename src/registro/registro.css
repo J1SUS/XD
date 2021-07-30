@@ -64,4 +64,7 @@
 .Registro *{
    font-size: calc(35 * 100vw / var(--ideal-viewport-width));
 }
+.reg h2 {width: calc(450 * 100vw / var(--ideal-viewport-width));}
+.Registro img {
+width: calc(500 * 100vw / var(--ideal-viewport-width));
 }
