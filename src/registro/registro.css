@@ -58,6 +58,7 @@
 
 @media (max-width: 480px) {
 .Registro {
-    Width: 100%
+    Width: 100%;
+    margin-left: 0;
 }
 }
