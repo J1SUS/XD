@@ -66,6 +66,7 @@
 }
 .reg h2 {width: calc(500 * 100vw / var(--ideal-viewport-width));}
 .Registro img {
-width: calc(600 * 100vw / var(--ideal-viewport-width));
+    width: calc(570 * 100vw / var(--ideal-viewport-width));
+    bottom: calc(-100 * 100vw / var(--ideal-viewport-width))
 }
 }
