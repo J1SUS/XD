@@ -61,4 +61,6 @@
     Width: 100%;
     margin-left: 0;
 }
+.Registro *{
+   font-size: calc(35 * 100vw / var(--ideal-viewport-width));
 }
