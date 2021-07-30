@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: calc(350 * 100vw / var(--ideal-viewport-width));
+    margin-bottom: calc(330 * 100vw / var(--ideal-viewport-width));
 }
 
 .tarjeta {
@@ -49,6 +49,10 @@
 
 .tarjeta-2 h3 {
     font-size: calc(18 * 100vw / var(--ideal-viewport-width));
+}
+
+.tarjeta-1 {
+    height: calc(550 * 100vw / var(--ideal-viewport-width));
 }
 
 .tarjeta-1, .tarjeta-3 {
