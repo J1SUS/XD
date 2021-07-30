@@ -16,6 +16,7 @@
     color: rgb(255, 0, 255);
     border-radius: 3px;
     box-shadow: 3px 3px 3px rgb(24, 24, 24);
+    font-family: 'Roboto Mono', monospace;
 }
 
 .tarjeta h2,.tarjeta h3 {

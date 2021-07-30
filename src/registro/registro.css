@@ -21,6 +21,7 @@
     position: relative;
     right: calc(-110 * 100vw / var(--ideal-viewport-width));
     font-size: calc(30 * 100vw / var(--ideal-viewport-width));
+    font-family: sans-serif;
 }
 .Registro img, .reg{
     bottom: calc(-110 * 100vw / var(--ideal-viewport-width));
