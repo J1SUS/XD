@@ -45,3 +45,11 @@
     font-size: calc(35 * 100vw / var(--ideal-viewport-width));
 }
 
+.tarjeta-2 h3 {
+    font-size: calc(18 * 100vw / var(--ideal-viewport-width));
+}
+
+.tarjeta-1, .tarjeta-3 {
+    position: relative;
+    bottom: calc(-100 * 100vw / var(--ideal-viewport-width));
+}
