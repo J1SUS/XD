@@ -62,10 +62,10 @@
     margin-left: 0;
 }
 .Registro *{
-   font-size: calc(45 * 100vw / var(--ideal-viewport-width));
+   font-size: calc(43 * 100vw / var(--ideal-viewport-width));
 }
-.reg h2 {width: calc(600 * 100vw / var(--ideal-viewport-width));}
+.reg h2 {width: calc(570 * 100vw / var(--ideal-viewport-width));}
 .Registro img {
-width: calc(650 * 100vw / var(--ideal-viewport-width));
+width: calc(600 * 100vw / var(--ideal-viewport-width));
 }
 }
