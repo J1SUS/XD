@@ -68,3 +68,4 @@
 .Registro img {
 width: calc(500 * 100vw / var(--ideal-viewport-width));
 }
+}
